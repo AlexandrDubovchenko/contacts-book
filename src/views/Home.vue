@@ -1,18 +1,18 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <ContactsList v-on="$listeners" v-bind:contacts="contacts" />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import ContactsList from "../components/ContactsList.vue";
 export default {
-  name: 'Home',
+  name: "app",
   components: {
-    HelloWorld
-  }
-}
+    ContactsList,
+  },
+  props: {
+    contacts: Array,
+  },
+};
 </script>

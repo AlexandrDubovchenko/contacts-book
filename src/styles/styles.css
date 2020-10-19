@@ -1,0 +1,42 @@
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn_delete {
+  background: red;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.btn:hover {
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  transform: translate(0, -1px);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+input {
+  outline: 0;
+  border: none;
+  border-bottom: 1px solid #898080;
+  font-size: 24px;
+}
+
+a {
+  color:  #898080
+}
